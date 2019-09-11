@@ -11,9 +11,9 @@ public class Homework1 {
 		int temp;
 		int[] data = {240,1,520,29,106};
  
-		for (i=0; i<5; i++){
+		for (i=0; i<data.length; i++){
 			min = i;
-			for (j=i+1; j<5; j++) 
+			for (j=i+1; j<data.length; j++) 
 				if (data[j]<data[min]) 
 					min = j;temp = data[i];
 					data[i] = data[min];
@@ -21,7 +21,7 @@ public class Homework1 {
 					}
 			
 			
-		for(int a = 0; a<5;a++) {
+		for(int a = 0; a<data.length;a++) {
 		System.out.print(data[a]+" ");
 		}
 

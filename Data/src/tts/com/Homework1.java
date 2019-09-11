@@ -13,9 +13,12 @@ public class Homework1 {
  
 		for (i=0; i<data.length; i++){
 			min = i;
-			for (j=i+1; j<data.length; j++) 
-				if (data[j]<data[min]) 
-					min = j;temp = data[i];
+			for (j=i+1; j<data.length; j++) {
+				if (data[j]<data[min]) {
+					min = j;
+				}
+			}
+			        temp = data[i];
 					data[i] = data[min];
 					data[min] = temp;
 					}

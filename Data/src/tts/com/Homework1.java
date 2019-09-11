@@ -11,7 +11,6 @@ public class Homework1 {
 		int temp;
 		int[] data = {240,1,520,29,106};
 
-
 		for (i=0; i<5; i++){
 			min = i;
 			for (j=i+1; j<5; j++) 
